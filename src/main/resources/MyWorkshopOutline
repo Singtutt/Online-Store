@@ -1,0 +1,36 @@
+Goal//
+
+-/Create an interactive online store for "user" to shop using command-line interface.
+
+Breakdown//
+
+//OSApp
+-/Main Menu (Options)
+--Display Products
+--Display Cart
+--Exit Program
+
+-/Product Display
+--(View Products)
+--Search function
+--Add to cart function
+--Back to Main Menu
+
+-/Checkout Display
+--(View Cart)
+--Manage cart (Removing items)
+--Back to Main Menu
+
+Classes and Methods possibly requiring//
+1/Product>A
+--Define fields
+--Getters and Setters
+2/OSBuffer>A
+3/OSApp>B
+--Interface
+--Main-Menu
+5/OSSift>C
+--Search function
+6/Cart (Checkout)>D
+--Calculations
+
